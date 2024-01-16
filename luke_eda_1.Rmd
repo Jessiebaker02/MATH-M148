@@ -43,9 +43,15 @@ Questions to Answer
 nrow(export)
 
 # 2.
-# return customers are customers who have more than 1 interaction on different days 
+# Number of customers is number of unique elements in the customer id column
 
+length(unique(event$customer_id))
 
+# 3. return customers are customers who have more than 1 interaction on different days 
+
+# 4. Accounts with more than one customer? Customers with more than one account?
+
+# 5. Time period covered? Busiest times?
 
 ```
 
